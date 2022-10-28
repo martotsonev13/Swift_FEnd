@@ -8,15 +8,17 @@
 		<h1>Short space quiz.</h1>
         <p>After select your answear, click the button to go to the next question.</p>
         <h2>By watching the video, can you guess what is the size of the space station?</h2>
-
+    <table>
         <thead>
             <tr>
-                <video 
-                    controls
-                    poster="iss.jpg"
-                    src="iss animation.mp4"
-                >
-            </video>
+                <td>
+                    <video 
+                        controls
+                        poster="iss.jpg"
+                        src="iss animation.mp4"
+                     >
+                    </video>
+                </td>
             </tr>
                 <br>
             <tr>
@@ -24,7 +26,7 @@
                     <ol
                     start="A" type="A"
                     >
-                        <form>  
+                        <form action="Question2.html">  
                         <li><input 
                             type="radio" 
                             name="size" 
@@ -49,16 +51,17 @@
                             value="question4" 
                             >
                             206m X 176m</li>
+                            
+                    </ol>      
+                
+                   
+                     <input type="submit" value="Next question >"  />
+                   
                         </form>    
-                    </ol>
                 </td>   
             </tr>
                 <br>
-            <tr>
-                <form action="Question2.html">
-                <input type="submit" value="Next question >" />
-                </form>
-            </tr>
         </thead>
+    </table>
 	</body>
 </html>
